@@ -1,0 +1,51 @@
+:root {
+  --branding-color: #c2dace;
+  --secondary-color: #087e8b;
+  --default-front-family: "Noto Sans", sans-serif;
+}
+
+body {
+  font-family: var(--default-front-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #373737;
+  font-family: var(--default-front-family);
+}
+
+p {
+  color: #373737;
+  font-family: var(--default-front-family);
+}
+
+.hero {
+  background: var(--branding-color);
+  text-align: center;
+  padding: 61px 30px;
+}
+
+.hero h1 {
+  font-family: var(--default-front-family);
+  font-size: 62px;
+}
+
+.hero p {
+  font-family: var(--default-front-family);
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.hero .btn-branding {
+  background: var(--secondary-color);
+  color: #fefefe;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27px;
+  padding: 15px 30px;
+}
