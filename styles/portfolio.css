@@ -71,6 +71,19 @@ p {
   padding: 120px 60px;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
 @media (max-width: 900px) {
   h2 {
     font-size: 32px;
@@ -85,5 +98,9 @@ p {
 
   .hero {
     padding: 80px 20px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
