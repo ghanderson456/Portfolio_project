@@ -1,11 +1,11 @@
 :root {
   --branding-color: #c2dace;
   --secondary-color: #087e8b;
-  --default-front-family: "Noto Sans", sans-serif;
+  --default-font-family: "Noto Sans", sans-serif;
 }
 
 body {
-  font-family: var(--default-front-family);
+  font-family: var(--default-font-family);
 }
 
 h1,
@@ -15,7 +15,7 @@ h4,
 h5,
 h6 {
   color: #373737;
-  font-family: var(--default-front-family);
+  font-family: var(--default-font-family);
 }
 
 h2 {
@@ -24,7 +24,7 @@ h2 {
 
 p {
   color: #373737;
-  font-family: var(--default-front-family);
+  font-family: var(--default-font-family);
   font-size: 16px;
   font-weight: 200;
 }
@@ -36,12 +36,12 @@ p {
 }
 
 .hero h1 {
-  font-family: var(--default-front-family);
+  font-family: var(--default-font-family);
   font-size: 62px;
 }
 
 .hero p {
-  font-family: var(--default-front-family);
+  font-family: var(--default-font-family);
   font-size: 22px;
   margin: 0;
   font-weight: 300;
@@ -71,20 +71,49 @@ p {
   padding: 120px 60px;
 }
 
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-section-content {
+.content {
   margin: 30px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content {
+  margin: 30px;
+}
+
 @media (max-width: 900px) {
+  h1 {
+    font-size: 24px;
+  }
+
   h2 {
     font-size: 32px;
   }
@@ -99,8 +128,7 @@ p {
   .hero {
     padding: 80px 20px;
   }
-  .about-section {
-    text-align: center;
+  .content {
     padding: 0;
   }
 }
