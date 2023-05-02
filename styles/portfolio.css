@@ -141,6 +141,41 @@ nav li.active a {
   text-decoration: underline;
 }
 
+footer {
+  background: var(--branding-color);
+  padding: 0px 50px;
+  border-radius: 6px;
+}
+
+footer li {
+  list-style: none;
+  font-weight: 200;
+}
+
+footer a {
+  color: #494949;
+  transition: all 100ms ease-in-out;
+}
+
+footer a:hover {
+  color: var(--secondary-color);
+}
+
+footer .social-links a {
+  margin: 0 15px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 9px 14px;
+  border-radius: 30%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: #494949;
+  background: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   .container h1 {
     font-size: 42px;
