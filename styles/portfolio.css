@@ -163,17 +163,17 @@ footer a:hover {
 
 footer .social-links a {
   margin: 0 15px;
-  color: var(--branding-color);
-  background: var(--secondary-color);
+  color: var(--secondary-color);
+  background: #e5ded2;
   padding: 9px 14px;
   border-radius: 30%;
-  font-size: 18px;
+  font-size: 25px;
   transition: all 100ms ease-in-out;
 }
 
 footer .social-links a:hover {
-  color: #494949;
-  background: var(--branding-color);
+  color: var(--branding-color);
+  background: var(--secondary-color);
 }
 
 @media (max-width: 900px) {
