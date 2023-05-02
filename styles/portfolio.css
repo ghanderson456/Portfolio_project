@@ -72,7 +72,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content {
@@ -144,7 +144,6 @@ nav li.active a {
 footer {
   background: var(--branding-color);
   padding: 0px 50px;
-  border-radius: 6px;
 }
 
 footer li {
@@ -174,6 +173,9 @@ footer .social-links a {
 footer .social-links a:hover {
   color: var(--branding-color);
   background: var(--secondary-color);
+}
+footer p {
+  font-weight: 200;
 }
 
 @media (max-width: 900px) {
